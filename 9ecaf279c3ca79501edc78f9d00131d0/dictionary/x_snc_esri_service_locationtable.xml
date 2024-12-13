@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aa57cf1f83521610d58c7f29feaad323" label="LocationTable" max_length="40" name="x_snc_esri_service_locationtable" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Longitude" max_length="40" name="longitude" type="string"/>
+        <element label="Street" max_length="40" name="street" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Country" max_length="40" name="country" reference="cmn_location" type="string"/>
+        <element label="Lattitude" max_length="40" name="lattitude" type="string"/>
+    </element>
+</database>
